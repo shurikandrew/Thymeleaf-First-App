@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" th:href="@{/css/form.css}"/>
+    </head>
+    <body>
+        <div>
+            <form th:action="@{/answerForm}" th:object="${student}" method="POST">
+                <div>
+                    <p>Input your name:</p>
+                    <input type="text" placeholder="John" name="name" />
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

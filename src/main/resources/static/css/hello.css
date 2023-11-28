@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+}
+
+.date{
+    font-family: Beirut;
+    font-size: 25px;
+    color: red;
+}
